@@ -1,18 +1,17 @@
 # minG-utils
 
-### on Annotation
-- annotation_cleanup : remove and rename certain annotations
-- yolo to voc : convert yolo annotations into voc annotation 
+### About files
+- `annotation_utils.py` : contains the utilities
 
-### on Directory
-- rename file name : change period and parenthesis to '_'
-- train validation test data split and make .txt files
-- move to folders : move image files into JPEGImages, xml files into Annotations, txt files into txt
+- `annot_cleanup.py` : removes and renames certain annotations
+- `coco_voc.py` : converts coco format annotations into voc format.
+- `yolo_voc.py` : converts yolo format annotations into voc format.
 
-### on Visualization
-- coco visualization
-- voc visualization
+- `visualize_coco.py` : visualizes coco data format
+- `visualize_voc.py` : visualizes voc data format
+- `download_coco.py` : downloads COCO2017 and converts into voc format
+- `download_voc.py` : downloads VOC2012
 
-### on Data Download
-- COCO2017: download and convert COCO2017 to VOC, then rename and remove annotations other than [car, motorbike, person]
-- VOC2012 : download VOC2012, then rename and remove annotations other than [car, motorbike, person]
+- `rename_files.py` : renames filename so that it does not have period, parenthesis, or spaces in the filename
+- `data_split.py` : splits the dataset and saves filelist to each .txt file
+- `move_to_folders.py` : move image files into JPEGImages, xml files into Annotations, txt files into txt
