@@ -14,5 +14,5 @@
 - voc visualization
 
 ### on Data Download
-- download and convert COCO2018 to VOC, then rename and remove annotations other than [car, motorbike, person]
-- download VOC2012, then rename and remove annotations other than [car, motorbike, person]
+- COCO2017: download and convert COCO2017 to VOC, then rename and remove annotations other than [car, motorbike, person]
+- VOC2012 : download VOC2012, then rename and remove annotations other than [car, motorbike, person]
