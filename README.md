@@ -1,7 +1,7 @@
 # minG-utils
 
 ### on Annotation
-- remove annotations : remove and rename certain annotations
+- annotation_cleanup : remove and rename certain annotations
 - yolo to voc : convert yolo annotations into voc annotation 
 
 ### on Directory
